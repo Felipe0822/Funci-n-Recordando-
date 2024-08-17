@@ -1,0 +1,7 @@
+C:\Users\felis\source\repos\Herramientas_2\Clases\bin\Debug\Clases.exe.config
+C:\Users\felis\source\repos\Herramientas_2\Clases\bin\Debug\Clases.exe
+C:\Users\felis\source\repos\Herramientas_2\Clases\bin\Debug\Clases.pdb
+C:\Users\felis\source\repos\Herramientas_2\Clases\obj\Debug\Clases.csproj.AssemblyReference.cache
+C:\Users\felis\source\repos\Herramientas_2\Clases\obj\Debug\Clases.csproj.CoreCompileInputs.cache
+C:\Users\felis\source\repos\Herramientas_2\Clases\obj\Debug\Clases.exe
+C:\Users\felis\source\repos\Herramientas_2\Clases\obj\Debug\Clases.pdb
