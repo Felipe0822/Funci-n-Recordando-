@@ -12,12 +12,15 @@ namespace Clases_2
         static void Main(string[] args)
         {
             List<string> emails = new List<string>();
+            Person person1 = new Person(1234, "Pipe", "Rincon", 21, 1312442421, "pipe@gmail.com", 176, "Male");
+            ActualizarDatos(person1, emails);
+        }
+        static void ActualizarDatos(Person person1, List<string> emails)
+        {
             int eleccion = 0;
             int actu = 0;
 
-            Person person1 = new Person(1234, "Pipe", "Rincon", 21, 1312442421, "pipe@gmail.com", 176, "Male");
-            
-                Console.WriteLine("Desea actulizar datos\n1.Si, 2.No");
+            Console.WriteLine("Desea actulizar datos\n1.Si, 2.No");
                 string accion = Console.ReadLine();
                 if (int.TryParse(accion, out eleccion))
                 {
