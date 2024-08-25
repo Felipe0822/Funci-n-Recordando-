@@ -27,7 +27,12 @@ namespace Clases_2
                     while (eleccion == 1)
                     {
                         person1.ViewData();
-                        Console.WriteLine("Que desea actualizar? 1:ID, 2:Nombre, 3:Apellido, \n4:Genero, 5:Edad, 6:Numero de telefono," +
+                    Console.WriteLine("Otros emails guardados:");
+                    foreach (string mails in emails)
+                    {
+                        Console.WriteLine(mails);
+                    }
+                    Console.WriteLine("Que desea actualizar? 1:ID, 2:Nombre, 3:Apellido, \n4:Genero, 5:Edad, 6:Numero de telefono," +
                             " 7:Reemplazar Email principal, 8:Agregar Email, 9:Altura");
                         actu = int.Parse(Console.ReadLine());
                         if (actu == 1)
